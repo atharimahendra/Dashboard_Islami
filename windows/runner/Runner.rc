@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "bit_taqwa_app" "\0"
+            VALUE "FileDescription", "bittaqwa_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "bit_taqwa_app" "\0"
+            VALUE "InternalName", "bittaqwa_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "bit_taqwa_app.exe" "\0"
-            VALUE "ProductName", "bit_taqwa_app" "\0"
+            VALUE "OriginalFilename", "bittaqwa_app.exe" "\0"
+            VALUE "ProductName", "bittaqwa_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

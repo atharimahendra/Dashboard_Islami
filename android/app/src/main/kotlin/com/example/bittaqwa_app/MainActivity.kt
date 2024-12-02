@@ -1,4 +1,4 @@
-package com.example.bit_taqwa_app
+package com.example.bittaqwa_app
 
 import io.flutter.embedding.android.FlutterActivity
 

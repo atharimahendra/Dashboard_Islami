@@ -72,38 +72,58 @@ class Dashboard extends StatelessWidget {
         child: SingleChildScrollView(scrollDirection: Axis.horizontal,
         child: Row(
           children: [
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_doa.png"),
-                Text("Doa-Doa", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
-              ],
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, '/doa');
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_doa.png"),
+                  Text("Doa-Doa", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
+                ],
+              ),
             ),
 
             SizedBox(width: 12,),
 
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_zakat.png"),
-                Text("Zakat", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
-              ],
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, '/zakat');
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_zakat.png"),
+                  Text("Zakat", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
+                ],
+              ),
             ),
 
             SizedBox(width: 12,),
             
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_jadwal_sholat.png"),
-                Text("Jadwal Sholat", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
-              ],
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, '/jadwal-sholat');
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_jadwal_sholat.png"),
+                  Text("Jadwal Sholat", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
+                ],
+              ),
             ),
 
             SizedBox(width: 12,),
             
-            Column(
-              children: [
-                Image.asset("assets/images/ic_menu_video_kajian.png"),
-                Text("Video Kajian", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
-              ],
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, '/video-kajian');
+              },
+              child: Column(
+                children: [
+                  Image.asset("assets/images/ic_menu_video_kajian.png"),
+                  Text("Video Kajian", style: TextStyle(fontFamily: "PoppinsSemiBold", fontSize: 14, color: ColorApp.white),),
+                ],
+              ),
             ),
           ],
         ),
